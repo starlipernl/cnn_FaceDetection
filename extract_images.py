@@ -1,3 +1,5 @@
+# Script to extract the images from the CelebA dataset.
+
 import os
 import cv2
 import csv
@@ -67,7 +69,7 @@ with open(annotation_file, 'r') as csvfile:
         img_path_non = os.path.join('Extracted_Non', img_out_file)
         cv2.imwrite(img_path_non, img_non)
         idx += 1
-        if idx > 12001:
+        if idx > 11001:
             break
 
 

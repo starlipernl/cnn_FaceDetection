@@ -5,6 +5,11 @@
 Extracted*
 *.csv
 Faces*
+report_images/
+
+# Jupyter stuff
+.ipynb_checkpoints/
+__pycache__/
 
 # User-specific stuff
 .idea/**/workspace.xml
