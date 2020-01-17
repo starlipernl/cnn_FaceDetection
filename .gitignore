@@ -5,7 +5,7 @@
 Extracted*
 *.csv
 Faces*
-report_images/
+
 
 # Jupyter stuff
 .ipynb_checkpoints/
